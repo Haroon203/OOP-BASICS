@@ -1,5 +1,7 @@
 #include <iostream>
 using namespace std;
+
+//checking
 class Bird{
 	private:
 	string name;
