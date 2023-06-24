@@ -11,13 +11,13 @@ public:
 	}
 	void findoddnumbers() {
 		while (count < 100) {
-			if(i%2!=0){
+			if (i % 2 != 0) {
 				cout << i << endl;
 				count++;
-		}
+			}
 			i++;
+		}
 	}
-}
 };
 int main()
 {
