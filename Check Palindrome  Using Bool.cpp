@@ -33,6 +33,13 @@ public:
             return false;
         }
     }
+    void display(){
+    	bool found;
+    if (found == true)
+        cout << endl << "Number is palidrome";
+    else
+        cout << endl << "Number is not palidrome";
+    }
 };
 int main()
 {
@@ -41,9 +48,6 @@ int main()
     cout << "Enter a number: ";
     cin >> n;
     bool found = obj1.findpalidrom(n);
-    if (found == true)
-        cout << endl << "Number is palidrome";
-    else
-        cout << endl << "Number is not palidrome";
+   obj1.display();
     return 0;
 }
