@@ -189,6 +189,8 @@ int main()
 	Tictactoe obj1;
 	obj1.board();
 	obj1.tossGenerator();
+	obj1.winChecker();
+	obj1.drawChecker();
 	return 0;
 
 }
